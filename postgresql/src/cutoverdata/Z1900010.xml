@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:envelope xmlns="urn:publicid:-:DGTAXUD:TARIC:MESSAGE:1.0" xmlns:env="urn:publicid:-:DGTAXUD:GENERAL:ENVELOPE:1.0" id="18021">
+  <env:transaction id="1">
+    <env:app.message id="1">
+      <oub:transmission xmlns:oub="urn:publicid:-:DGTAXUD:TARIC:MESSAGE:1.0" xmlns:env="urn:publicid:-:DGTAXUD:GENERAL:ENVELOPE:1.0">
+        <oub:record>
+          <oub:transaction.id>1</oub:transaction.id>
+          <oub:record.code>285</oub:record.code>
+          <oub:subrecord.code>00</oub:subrecord.code>
+          <oub:record.sequence.number>1</oub:record.sequence.number>
+          <oub:update.type>3</oub:update.type>
+          <oub:base.regulation>
+            <oub:base.regulation.role>1</oub:base.regulation.role>
+            <oub:base.regulation.id>Z1900010</oub:base.regulation.id>
+            <oub:published.date>2018-06-26</oub:published.date>
+            <oub:officialjournal.number>00</oub:officialjournal.number>
+            <oub:officialjournal.page>1</oub:officialjournal.page>
+            <oub:validity.start.date>2019-03-30</oub:validity.start.date>
+            <oub:community.code>1</oub:community.code>
+            <oub:regulation.group.id>DIV</oub:regulation.group.id>
+            <oub:replacement.indicator>0</oub:replacement.indicator>
+            <oub:stopped.flag>0</oub:stopped.flag>
+            <oub:information.text>EU WITHDRAWAL ACT</oub:information.text>
+            <oub:approved.flag>1</oub:approved.flag>
+          </oub:base.regulation>
+        </oub:record>
+      </oub:transmission>
+    </env:app.message>
+  </env:transaction>
+</env:envelope>

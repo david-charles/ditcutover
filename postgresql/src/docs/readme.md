@@ -1,6 +1,6 @@
-#Cutover Documentation
+# Cutover Documentation
 
-##Overview
+## Overview
 Cutover preparation is performed offline.
 
 The basic process for cutover is supported by:
@@ -19,7 +19,7 @@ The basic process for cutover is supported by:
         - (specify the generating (&justification) regulation, start date)
     
     * **XML generation** from the database
-        - Standalone Java program
+        - Standalone Java program (Xmlgen)
         - Uses records created in the _oplog tables
         - Generates XML from the data returned in the queries
         - Quite manual process but only needs to be simple
